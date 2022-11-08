@@ -14,7 +14,7 @@
     <PackageReference Include="NLog" Version="5.0.2" />
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="104.0.5112.7900" />
     <PackageReference Include="Selenium.WebDriver.GeckoDriver" Version="0.31.0" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.abstractions" Version="2.0.3" />
     <PackageReference Include="xunit.assert" Version="2.4.2" />
@@ -36,7 +36,7 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'netcoreapp3.1'">
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.0" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.1.1" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>
